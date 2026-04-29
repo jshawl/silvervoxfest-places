@@ -1,3 +1,4 @@
 {
-  "plugins": ["./plugins/export-volunteers", "./plugins/places"]
+  "plugins": ["./plugins/export-volunteers", "./plugins/places"],
+  "themes": ["./themes/2026"]
 }
