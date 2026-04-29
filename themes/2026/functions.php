@@ -11,3 +11,9 @@ function sfmf_enqueue_styles()
 }
 add_action('wp_enqueue_scripts', 'sfmf_enqueue_styles');
 add_editor_style('assets/css/style.css');
+
+function sfmf_enqueue_dashicon()
+{
+    wp_enqueue_style('dashicons');
+}
+add_action('wp_enqueue_scripts', 'sfmf_enqueue_dashicon');
