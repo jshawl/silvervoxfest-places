@@ -1,7 +1,33 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+	"version": 3,
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#e1a62c",
+					"name": "Goldenrod",
+					"slug": "goldenrod"
+				},
+				{
+					"color": "#ec207b",
+					"name": "Pink",
+					"slug": "pink"
+				},
+				{
+					"color": "#ede8de",
+					"name": "White",
+					"slug": "white"
+				},
+				{
+					"color": "#000000",
+					"name": "Black",
+					"slug": "black"
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "620px",
 			"wideSize": "1000px"
@@ -36,6 +62,5 @@
 			"area": "footer",
 			"name": "footer"
 		}
-	],
-	"version": 3
+	]
 }

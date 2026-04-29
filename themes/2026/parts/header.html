@@ -1,30 +1,45 @@
-<!-- wp:group {"layout":{"inherit":"true"}} -->
-<div class="wp-block-group">
-	<!-- wp:group {"align":"full","layout":{"type":"flex","justifyContent":"space-between"},"style":{"spacing":{"padding":{"bottom":"30px","top":"30px"}}}} -->
-	<div class="wp-block-group alignfull" style="padding-bottom:30px;padding-top:30px">
-	
-		<!-- wp:group {"layout":{"type":"flex"}} -->
-		<div class="wp-block-group">
-			<!-- wp:site-logo {"width":64} /-->
-	
-			<!-- wp:group -->
-			<div class="wp-block-group">
-				<!-- wp:site-title /-->
-				<!-- wp:site-tagline /-->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:group -->
-	
-		<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0"}}}} /-->
-	
-	</div>
-	<!-- /wp:group -->
-
-</div>
+<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"black","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<header class="wp-block-group has-black-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group has-white-color has-text-color has-link-color"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:site-logo {"width":64} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:spacer {"height":50} -->
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
- 
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
+<div class="wp-block-group"><!-- wp:navigation {"ref":4,"style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right","orientation":"horizontal"}} /-->
+
+<!-- wp:social-links -->
+<ul class="wp-block-social-links"><!-- wp:social-link {"url":"https://www.facebook.com/silvervoxfest","service":"facebook"} /-->
+
+<!-- wp:social-link {"url":"https://www.linkedin.com/company/silvervox-fest/","service":"linkedin"} /-->
+
+<!-- wp:social-link {"url":"https://www.instagram.com/silvervoxfest/","service":"instagram"} /--></ul>
+<!-- /wp:social-links -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"pink"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-pink-background-color has-background wp-element-button">My Tickets</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"backgroundColor":"pink"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-pink-background-color has-background wp-element-button">Buy Passes</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|goldenrod"}}}},"textColor":"goldenrod"} -->
+<p class="has-goldenrod-color has-text-color has-link-color">
+    Inaugural Edition
+  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|pink"}}}},"textColor":"pink"} -->
+<p class="has-pink-color has-text-color has-link-color">June 18 - 21, 2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
+<p class="has-white-color has-text-color has-link-color">Historic Downtown Frederick, MD</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></header>
+<!-- /wp:group -->
