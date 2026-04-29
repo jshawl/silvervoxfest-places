@@ -25,6 +25,11 @@
 					"color": "#000000",
 					"name": "Black",
 					"slug": "black"
+				},
+				{
+					"color": "#40b08a",
+					"name": "Teal",
+					"slug": "teal"
 				}
 			]
 		},
@@ -52,6 +57,18 @@
 			]
 		},
 		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"radius": "0px"
+				},
+				"typography": {
+					"textTransform": "uppercase"
+				}
+			}
+		}
 	},
 	"templateParts": [
 		{

@@ -1,6 +1,5 @@
 <?php
 
-
 function sfmf_enqueue_styles()
 {
     wp_enqueue_style(
@@ -12,8 +11,3 @@ function sfmf_enqueue_styles()
 }
 add_action('wp_enqueue_scripts', 'sfmf_enqueue_styles');
 add_editor_style('assets/css/style.css');
-
-register_block_style('core/paragraph', array(
-    'name'  => 'uppercase',
-    'label' => 'Uppercase',
-));
