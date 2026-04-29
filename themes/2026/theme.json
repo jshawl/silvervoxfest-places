@@ -68,6 +68,9 @@
 					"textTransform": "uppercase"
 				}
 			}
+		},
+		"color": {
+			"background": "#000"
 		}
 	},
 	"templateParts": [
