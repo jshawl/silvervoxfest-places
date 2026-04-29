@@ -1,9 +1,9 @@
-.sfmf-header-context p {
-  text-transform: uppercase;
+.uppercase {
+    text-transform: uppercase;
 }
 
 @media all and (max-width: 781px) {
-    .sfmf-header-context p {
+    .s-text-left {
         text-align: left;
     }
 }
