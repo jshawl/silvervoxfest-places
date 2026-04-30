@@ -1,0 +1,9 @@
+.uppercase {
+    text-transform: uppercase;
+}
+
+@media all and (max-width: 781px) {
+    .s-text-left {
+        text-align: left;
+    }
+}
