@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Teal Social Icons
- * Slug: 2026/teal-social-icons
- * Categories: buttons
+ * Slug: silvervoxfest-2026/teal-social-icons
+ * Categories: silvervoxfest-2026/custom
  */
 
 ?>
