@@ -1,4 +1,4 @@
 {
   "plugins": ["./plugins/export-volunteers", "./plugins/places"],
-  "themes": ["./themes/2026"]
+  "themes": ["./themes/silvervoxfest-2026"]
 }
