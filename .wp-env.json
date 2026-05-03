@@ -1,4 +1,10 @@
 {
   "plugins": ["./plugins/export-volunteers", "./plugins/places"],
-  "themes": ["./themes/gowp-skeleton", "./themes/silvervoxfest-2026"]
+  "themes": ["./themes/gowp-skeleton", "./themes/silvervoxfest-2026"],
+  "mappings": {
+    "dump.sql": "./dump.sql"
+  },
+  "lifecycleScripts": {
+    "afterReset": "./bin/import.sh"
+  }
 }
