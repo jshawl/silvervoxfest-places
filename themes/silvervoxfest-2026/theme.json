@@ -70,7 +70,8 @@
 			}
 		},
 		"color": {
-			"background": "#fff"
+			"background": "#000",
+			"text": "#fff"
 		}
 	},
 	"templateParts": [
