@@ -2,7 +2,7 @@
   "plugins": ["./plugins/export-volunteers", "./plugins/places"],
   "themes": ["./themes/gowp-skeleton", "./themes/silvervoxfest-2026"],
   "mappings": {
-    "dump.sql": "./dump.sql"
+    "db": "./db"
   },
   "lifecycleScripts": {
     "afterReset": "./bin/import.sh"
