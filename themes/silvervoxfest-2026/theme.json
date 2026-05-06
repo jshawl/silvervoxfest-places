@@ -53,6 +53,44 @@
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Bebas Neue\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/bebas-neue/bebas-neue-400-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Bebas Neue\", sans-serif",
+					"name": "Bebas Neue",
+					"slug": "bebas-neue"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"DM Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/dm-sans/dm-sans-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"DM Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/dm-sans/dm-sans-400-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"DM Sans\", sans-serif",
+					"name": "DM Sans",
+					"slug": "dm-sans"
 				}
 			]
 		},
@@ -65,13 +103,27 @@
 					"radius": "0px"
 				},
 				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--bebas-neue)",
 					"textTransform": "uppercase"
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--bebas-neue)"
+				}
+			},
+			"core/paragraph": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--dm-sans)"
 				}
 			}
 		},
 		"color": {
 			"background": "#000",
 			"text": "#fff"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--dm-sans)"
 		}
 	},
 	"templateParts": [
