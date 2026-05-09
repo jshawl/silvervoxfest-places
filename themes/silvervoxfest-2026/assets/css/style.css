@@ -2,12 +2,20 @@
     text-transform: uppercase;
 }
 
+.align-items-flex-start {
+    align-items: flex-start;
+}
+
+.ticket-images figure {
+    text-align: center;
+}
+
 .program-tracks{
     align-items: stretch;
     flex-wrap: wrap;
 }
 
-.program-tracks div {
+.program-tracks > div {
     flex: 1 1;
 }
 
@@ -35,4 +43,15 @@
     .s-text-left {
         text-align: left;
     }
+}
+
+.gradient-border {
+    background: #E8AC2E;
+    background: linear-gradient(90deg,rgba(232, 172, 46, 1) 4%, rgba(232, 80, 45, 1) 46%, rgba(238, 42, 123, 1) 84%);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.gradient-border > * {
+    background: black;
 }
