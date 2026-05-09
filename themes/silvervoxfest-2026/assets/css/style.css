@@ -2,6 +2,26 @@
     text-transform: uppercase;
 }
 
+.sfmf-marquee li {
+    width: auto !important;
+    margin: 0 0.5rem !important;
+}
+
+.sfmf-marquee li a {
+    text-decoration: none;
+}
+
+.sfmf-marquee li:not(:first-child):before,
+.sfmf-marquee p:before {
+    content: "★";
+    padding-right: 1rem;
+    font-size: 2rem;
+    line-height: 1rem;
+    transform: translateY(0.1rem);
+    display: inline-block;
+}
+
+
 @media all and (max-width: 781px) {
     .s-text-left {
         text-align: left;
