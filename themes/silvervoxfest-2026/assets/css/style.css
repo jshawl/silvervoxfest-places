@@ -2,6 +2,15 @@
     text-transform: uppercase;
 }
 
+.program-tracks{
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.program-tracks div {
+    flex: 1 1;
+}
+
 .sfmf-marquee li {
     width: auto !important;
     margin: 0 0.5rem !important;
