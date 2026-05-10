@@ -6,6 +6,10 @@
     align-items: flex-start;
 }
 
+.align-items-stretch {
+    align-items: stretch;
+}
+
 .ticket-images figure {
     text-align: center;
 }
@@ -18,6 +22,9 @@
 @media all and (max-width: 781px) {
     .s-text-left {
         text-align: left;
+    }
+    .s-border-none {
+        border: none !important;
     }
 }
 

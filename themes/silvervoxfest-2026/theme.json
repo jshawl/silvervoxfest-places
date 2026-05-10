@@ -35,6 +35,11 @@
 					"color": "#1C4BD0",
 					"name": "Blue",
 					"slug": "blue"
+				},
+				{
+					"color": "#F5F0E6",
+					"name": "Grey",
+					"slug": "grey"
 				}
 			]
 		},
