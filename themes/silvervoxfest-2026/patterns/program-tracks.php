@@ -5,7 +5,7 @@
  * Categories: silvervoxfest-2026/custom
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"backgroundColor":"black","layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"categories":["silvervoxfest-2026/custom"],"patternName":"silvervoxfest-2026/program-tracks","name":"Program Tracks"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"backgroundColor":"black","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-black-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"style":{"border":{"top":{"style":"none","width":"0px"},"right":{"style":"none","width":"0px"},"bottom":{"width":"1px","color":"var:preset|color|goldenrod"},"left":{"style":"none","width":"0px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-color:var(--wp--preset--color--goldenrod);border-bottom-width:1px;border-left-style:none;border-left-width:0px"><!-- wp:heading {"style":{"typography":{"fontSize":"42px"}},"fontFamily":"bebas-neue"} -->
 <h2 class="wp-block-heading has-bebas-neue-font-family" style="font-size:42px">Program Tracks</h2>
@@ -16,9 +16,9 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"program-tracks","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group program-tracks"><!-- wp:group {"metadata":{"patternName":"silvervoxfest-2026/track","name":"Track"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"0"}},"backgroundColor":"blue","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-blue-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|goldenrod"}}},"typography":{"fontSize":"40px"}},"textColor":"goldenrod","fontFamily":"bebas-neue"} -->
+<!-- wp:group {"className":"program-tracks align-items-flex-start","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left"}} -->
+<div class="wp-block-group program-tracks align-items-flex-start"><!-- wp:group {"metadata":{"patternName":"silvervoxfest-2026/track","name":"Track"},"className":"flex-1-1","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"0"}},"backgroundColor":"blue","layout":{"type":"constrained"}} -->
+<div class="wp-block-group flex-1-1 has-blue-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|goldenrod"}}},"typography":{"fontSize":"40px"}},"textColor":"goldenrod","fontFamily":"bebas-neue"} -->
 <p class="has-goldenrod-color has-text-color has-link-color has-bebas-neue-font-family" style="font-size:40px">01 / Film</p>
 <!-- /wp:paragraph -->
 
@@ -35,8 +35,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"patternName":"silvervoxfest-2026/track","name":"Track"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"0"}},"backgroundColor":"pink","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-pink-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|goldenrod"}}},"typography":{"fontSize":"40px"}},"textColor":"goldenrod","fontFamily":"bebas-neue"} -->
+<!-- wp:group {"metadata":{"patternName":"silvervoxfest-2026/track","name":"Track"},"className":"flex-1-1","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"0"}},"backgroundColor":"pink","layout":{"type":"constrained"}} -->
+<div class="wp-block-group flex-1-1 has-pink-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|goldenrod"}}},"typography":{"fontSize":"40px"}},"textColor":"goldenrod","fontFamily":"bebas-neue"} -->
 <p class="has-goldenrod-color has-text-color has-link-color has-bebas-neue-font-family" style="font-size:40px">02 / Music</p>
 <!-- /wp:paragraph -->
 
@@ -53,8 +53,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"patternName":"silvervoxfest-2026/track","name":"Track"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"0"}},"backgroundColor":"teal","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-teal-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|goldenrod"}}},"typography":{"fontSize":"40px"}},"textColor":"goldenrod","fontFamily":"bebas-neue"} -->
+<!-- wp:group {"metadata":{"patternName":"silvervoxfest-2026/track","name":"Track"},"className":"flex-1-1","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"0"}},"backgroundColor":"teal","layout":{"type":"default"}} -->
+<div class="wp-block-group flex-1-1 has-teal-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|goldenrod"}}},"typography":{"fontSize":"40px"}},"textColor":"goldenrod","fontFamily":"bebas-neue"} -->
 <p class="has-goldenrod-color has-text-color has-link-color has-bebas-neue-font-family" style="font-size:40px">03 / Talks</p>
 <!-- /wp:paragraph -->
 
