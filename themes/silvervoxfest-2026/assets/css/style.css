@@ -19,6 +19,10 @@
     min-width: 300px;
 }
 
+.max-width-300 {
+    max-width: 300px;
+}
+
 @media all and (max-width: 781px) {
     .s-text-left {
         text-align: left;

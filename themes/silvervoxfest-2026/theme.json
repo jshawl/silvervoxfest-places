@@ -65,6 +65,11 @@
 					"slug": "system-font"
 				},
 				{
+					"fontFamily": "Georgia, serif",
+					"name": "Georgia",
+					"slug": "georgia"
+				},
+				{
 					"fontFace": [
 						{
 							"fontFamily": "\"Bebas Neue\"",
