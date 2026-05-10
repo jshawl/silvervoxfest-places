@@ -49,11 +49,34 @@
 }
 
 .sfmf-marquee li:not(:first-child):before,
-.sfmf-marquee p:before {
+.sfmf-marquee p:before,
+.prefix-star:before {
     content: "★";
     padding-right: 1rem;
     font-size: 2rem;
     line-height: 1rem;
     transform: translateY(0.1rem);
     display: inline-block;
+}
+
+.sfmf-mission .is-layout-flex > *:first-child {
+    flex: 2;
+}
+
+.sfmf-mission .is-layout-flex > *:nth-child(2) {
+    flex: 1;
+}
+
+.sfmf-mission figure {
+    text-align: center;
+}
+
+.sfmf-mission img {
+    max-width: 300px;
+}
+
+@media all and (max-width: 781px) {
+    .sfmf-mission .is-layout-flex {
+        display: block;
+    }
 }
