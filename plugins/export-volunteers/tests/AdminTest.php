@@ -77,7 +77,7 @@ class AdminTest extends WP_UnitTestCase
             // expected — wp_die() at end of handler
         }
         $output = ob_get_clean();
-        $this->assertStringContainsString('"First Name","Last Name",Email', $output);
+        $this->assertStringContainsString('"Created At","First Name","Last Name",Email', $output);
         $this->assertStringContainsString('Jane,Doe', $output);
     }
 
