@@ -176,6 +176,7 @@ class SFMF_Export
         $entries = $this->get_entries();
         $rows = [];
 
+        usort($entries, fn ($a, $b) => $a['date_created'] <=> $b['date_created']);
         foreach ($entries as $entry) {
             $row = [];
             $row["Created At"] = $entry['date_created'];
