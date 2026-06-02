@@ -178,6 +178,7 @@ class SFMF_Export
 
         foreach ($entries as $entry) {
             $row = [];
+            $row["Created At"] = $entry['date_created'];
             foreach ($form['fields'] as $field) {
                 if ($field->visibility === 'administrative') {
                     continue;
