@@ -7,6 +7,14 @@ class SFMF_Map
     public function __construct()
     {
         add_action("init", [$this, 'register']);
+        add_action('wp_head', function () { ?>
+            <script>
+                window.placesMarkerData = {
+                    ajax_url: "<?php echo esc_url(admin_url('admin-ajax.php')); ?>",
+                    nonce: "<?php echo esc_js(wp_create_nonce('update_place_nonce')); ?>"
+                };
+            </script>
+        <?php });
     }
 
     public function register()

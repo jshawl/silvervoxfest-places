@@ -10,6 +10,7 @@ class SFMF_Place
         add_action('rest_api_init', [$this, 'register_rest_fields'], 15);
         add_filter('use_block_editor_for_post_type', [$this, 'disable_block_editor'], 10, 2);
         add_filter('rest_prepare_place', [$this, 'filter_rest_response'], 10, 3);
+        add_action('wp_ajax_update_place', [$this, 'update_place']);
     }
 
     public function save_meta($post_id)
@@ -34,6 +35,18 @@ class SFMF_Place
                 update_post_meta($post_id, '_place_lng', $latlng['lng']);
             }
         }
+    }
+
+    public function update_place()
+    {
+        check_ajax_referer('update_place_nonce', 'nonce');
+        $post_id = intval($_POST['post_id']);
+        if (!current_user_can('edit_post', $post_id)) {
+            wp_send_json_error('Permission denied');
+        }
+        update_post_meta($post_id, '_place_lat', sanitize_text_field($_POST['lat']));
+        update_post_meta($post_id, '_place_lng', sanitize_text_field($_POST['lng']));
+        wp_send_json_success('Meta updated');
     }
 
     public function register_meta_boxes()

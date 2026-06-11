@@ -34,6 +34,7 @@ export const createMarker = (location) => {
       type: location.type,
       emoji: ICON_MAP[location.type.toLowerCase()]?.emoji,
     }),
+    draggable: /drag/.test(window.location.hash),
   };
 
   const marker = new mapboxgl.Marker(options)
@@ -53,6 +54,23 @@ export const createMarker = (location) => {
     e.stopPropagation();
     closePopups();
     marker.togglePopup();
+  });
+  marker.on('dragend', () => {
+    const lngLat = marker.getLngLat();
+    const confirmed = confirm("Are you sure you want to update this place?")
+    if (!confirmed) {
+      return
+    }
+    fetch(window.placesMarkerData.ajax_url, {
+      method: "POST",
+      body: new URLSearchParams({
+        action: "update_place",
+        nonce: window.placesMarkerData.nonce,
+        post_id: location.id,
+        lat: lngLat.lat,
+        lng: lngLat.lng
+      })
+    })
   });
   return marker;
 };
